@@ -1,0 +1,16 @@
+name: TestPlugin
+version: 1.0
+description: Example
+author: The_Little_Max
+main: testplugin.Testplugin
+ 
+commands:
+  giveLP:
+    description: Gives a Levitation Porkchop
+    usage: /giveLP
+  giveMCD:
+    description: Gives a Mad Cow Disease
+    usage: /giveMCD
+  giveRC:
+    description: Gives a Regeneration Chicken
+    usage: /giveRC
