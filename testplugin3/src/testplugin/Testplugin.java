@@ -44,7 +44,7 @@ public class Testplugin extends JavaPlugin implements Listener {
 	public ItemStack getBeef() {
 		ItemStack cb = new ItemStack(Material.COOKED_BEEF, 1);
 		ItemMeta meta = cb.getItemMeta();
-		meta.setDisplayName(ChatColor.BLUE + "Mad Cow Disease");
+		meta.setDisplayName(ChatColor.DARK_PURPLE + "Mad Cow Disease");
 		ArrayList<String> lore = new ArrayList<String>();
 		lore.add("§6I wouldn't eat this if I were you...");
 		meta.setLore(lore);
@@ -56,7 +56,7 @@ public class Testplugin extends JavaPlugin implements Listener {
 	public ItemStack getChicken() {
 		ItemStack cc = new ItemStack(Material.COOKED_CHICKEN, 1);
 		ItemMeta meta = cc.getItemMeta();
-		meta.setDisplayName(ChatColor.BLUE + "Regeneration Chicken");
+		meta.setDisplayName(ChatColor.YELLOW + "Regeneration Chicken");
 		ArrayList<String> lore = new ArrayList<String>();
 		lore.add("§6This chicken infuses into your heart and helps to heal you faster.");
 		meta.setLore(lore);
